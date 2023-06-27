@@ -45,66 +45,7 @@ public class Main {
         scanner.close();
     }
 
-//     // Rest of the code...
-
-//     public static List<int[]> findCombinations(int[] nums, int target) {
-//         // Method implementation
-//     }
-
-//     public static int[] mergeArrays(List<int[]> arrays) {
-//         // Method implementation
-//     }
-// }
-
-
-// import java.util.ArrayList;
-// import java.util.Arrays;
-// import java.util.HashMap;
-// import java.util.List;
-// import java.util.Map;
-// import java.util.Scanner;
-
-// public class Main {
-//     public static void main(String[] args) {
-//         Scanner scanner = new Scanner(System.in);
-
-//         System.out.print("Enter the integers (separated by spaces): ");
-//         String input = scanner.nextLine();
-
-//         // Input validation
-//         if (input.isEmpty()) {
-//             System.out.println("Input cannot be empty.");
-//             return; // Exit the program or handle the error appropriately
-//         }
-
-//         int[] nums = Arrays.stream(input.split(" ")).mapToInt(Integer::parseInt).toArray();
-
-//         System.out.print("Enter the target value: ");
-//         int target = scanner.nextInt();
-
-//         List<int[]> firstCombinations = findCombinations(nums, target);
-//         System.out.println("First Combination for \"" + target + "\":");
-//         for (int[] combination : firstCombinations) {
-//             System.out.println(Arrays.toString(combination));
-//         }
-
-//         int[] mergedArray = mergeArrays(firstCombinations);
-//         System.out.println("Merged Array: " + Arrays.toString(mergedArray));
-
-//         int doubledTarget = target * 2;
-//         List<int[]> secondCombinations = findCombinations(mergedArray, doubledTarget);
-//         System.out.println("Second Combination for \"" + doubledTarget + "\":");
-//         for (int[] combination : secondCombinations) {
-//             System.out.println(Arrays.toString(combination));
-//         }
-
-//         scanner.close();
-//     }
-
     // Rest of the code...
-
-
-
 
     public static List<int[]> findCombinations(int[] nums, int target) {
         Map<Integer, Integer> frequency = new HashMap<>();
